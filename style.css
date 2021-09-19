@@ -405,7 +405,7 @@ footer{
 		width: 400px;
 	}
 	.area-1 .div-header{
-		width: 400px;
+		width: 360px;
 	}
 	.section1 .area-2{
 		width: 300px;
@@ -426,12 +426,39 @@ footer{
 		margin: 0;
 		padding: 0;
 	}
+	footer{
+		padding:3px ;
+	}
 }
 @media screen and (max-width:400px) {
+	
+	.area-1{
+		width: 300px;
+		padding: 3px;
+		margin: 0;
+	}
+	.area-1 .div-header{
+		width: 300px;
+		margin: 0;
+	}
+	
 	.section1 .area-2{
 		width: 300px;
 	}
+	footer .div-fot .div-info{
+		padding-left: 35px;
+		width: 250px;
+	}
+	main .btn-saibamais{
+		display: none;
+	}
+	main .area-3{
+		width: 300px;
+	}
+	.div-maps{
+		display: none;
+	}
 }
 @media screen and (max-width:300px){
-
+	
 }
